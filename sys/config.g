@@ -9,7 +9,7 @@ M83                                                     ; ...but relative extrud
 M550 P"ender-idex"                                      ; set printer name
 
 ; Network
-M551 P"Haloone1"                                        ; set password
+M551 P"password"                                        ; set password
 M552 S1                                                 ; enable network
 M586 P0 S1                                              ; enable HTTP
 M586 P1 S0                                              ; disable FTP
